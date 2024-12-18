@@ -2,7 +2,10 @@
 
 
 ## Desafío 1: Vectorización de texto y Modelo Naïve Bayes
-![img1](Imagenes_readme/imagen_desafio1.png)
+
+<div align="center">
+  <img src="Imagenes_readme/imagen_desafio1.png" alt="img1">
+</div>
 
 En este desafío, abordé la tarea de clasificar documentos de texto provenientes del conjunto de datos "20 Newsgroups" en diferentes categorías temáticas. Utilicé modelos de Naïve Bayes, específicamente MultinomialNB y ComplementNB, para maximizar el desempeño en términos del f1-score macro sobre un conjunto de datos de prueba.
 
