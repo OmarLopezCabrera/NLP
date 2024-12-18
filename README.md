@@ -13,17 +13,23 @@ Link colab:
 ## Desafío 2: Custom Embeddings con Gensim
 ![img2](Imagenes_readme/imagen_desafio2.png)
 
-Seleccionar un corpus y entrenar embedding, probar test de analogia y visualizar el embeddings.
+
+Este desafío se centró en la creación de embeddings personalizados utilizando la biblioteca Gensim, a partir del corpus compuesto por el libro de la biblia. Primero, se realizó un preprocesamiento del texto que incluyó la tokenización y estructuración del corpus, asegurando que estuviera listo para ser utilizado en el modelo. Posteriormente, se entrenó un modelo Word2Vec para generar representaciones vectoriales de las palabras, capturando relaciones semánticas entre ellas. Finalmente, se evaluaron los embeddings mediante pruebas de analogía y se exploró su significado semántico a través de visualizaciones, permitiendo un análisis detallado de las relaciones entre las palabras representadas.
 
 Link colab:  https://colab.research.google.com/drive/1VQ3DAe6R_v_RrVzaHreiCkoTQZ9kQ8m_#scrollTo=NCCXtDpcugmd
+
 
 ## Desafío 3: Modelo de Lenguaje con Tokenización por Palabras (Predicción proxima palabra)
 ![img3](Imagenes_readme/imagen_desafio3.png)
 
+Este desafío consistió en desarrollar un modelo de lenguaje capaz de predecir la próxima palabra, utilizando como corpus el primer libro de "Los Miserables". Se llevó a cabo un preprocesamiento que incluyó la tokenización del texto y la creación de secuencias para alimentar el modelo. Posteriormente, se exploraron diferentes arquitecturas de redes neuronales recurrentes, incluyendo SimpleRNN, LSTM y GRU, implementándolas para entrenar el modelo. Además, se aplicaron técnicas como greedy search y beam search para la generación de secuencias de texto. Finalmente, se evaluaron las arquitecturas comparando métricas como la perplejidad, lo que permitió analizar el desempeño y la calidad de las predicciones generadas.
+
+Link colab: 
+
 ## Desafío 4: Bot QA
 ![img4](Imagenes_readme/imagen_desafio4.png)
 
-Construir QA Bot basado en el ejemplo del traductor pero con un dataset QA.
+El proyecto se centró en la construcción de un bot conversacional basado en un modelo encoder-decoder utilizando LSTM para responder preguntas. El proceso comenzó con el preprocesamiento del texto, donde se realizaron tareas como la tokenización y la creación de diccionarios para mapear palabras a índices. Se incorporaron embeddings preentrenados de FastText con 300 dimensiones para enriquecer las representaciones semánticas del modelo. A continuación, se diseñó e implementó un modelo encoder-decoder utilizando LSTM, permitiendo al bot procesar preguntas y generar respuestas coherentes. Finalmente, se evaluó el rendimiento del sistema analizando las respuestas generadas a partir de secuencias del dataset, asegurando que las interacciones fueran relevantes y precisas.
 
 
 Link colab: https://colab.research.google.com/drive/16u8dD6gbEK9o8KElBBUk12ywt70CTvDZ#scrollTo=m6Y-aHfmI9bS
