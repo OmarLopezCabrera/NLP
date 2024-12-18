@@ -11,7 +11,7 @@ Link colab:
 
 
 ## Desafío 2: Custom Embeddings con Gensim
-![img2](images_readme/desafio2.png)\
+![img2](Imagenes_readme/imagen_desafio2.png)\
 
 Seleccionar un corpus y entrenar embedding, probar test de analogia y visualizar el embeddings.
 
